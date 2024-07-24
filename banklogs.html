@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bank Logs - Peter Methods Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Peter Methods Shop</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="banklogs.html">Bank Logs</a>
+            <a href="debitlinkables.html">Debit Linkables</a>
+            <a href="checkslips.html">Check Slips</a>
+            <a href="moneyorders.html">Money Orders</a>
+            <a href="Stimmy.html">Stimmy</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Bank Logs</h2>
+        <ul id="product-list">
+            <!-- JavaScript will insert product items here -->
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2024 Peter Methods Shop</p>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        const products = [
+            {name: 'Pasta 1', description: 'Description for Pasta 1'},
+            {name: 'Pasta 2', description: 'Description for Pasta 2'},
+            // Add up to 20 products
+        ];
+
+        const productList = document.getElementById('product-list');
+        products.forEach(product => {
+            const li = document.createElement('li');
+            li.innerHTML = <h3>${product.name}</h3><p>${product.description}</p>;
+            productList.appendChild(li);
+        });
+    </script>
+</body>
+</html>

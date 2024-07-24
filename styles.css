@@ -1,0 +1,68 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	background-image:
+url('images/img5.jpeg');
+	background-size: cover;
+	background-position: center;
+	color: green;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+#checkout-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
