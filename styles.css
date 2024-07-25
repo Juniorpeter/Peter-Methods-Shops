@@ -1,10 +1,12 @@
 body, html {
     font-family: Arial, sans-serif;
-    font-color:
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 header {
@@ -21,7 +23,7 @@ nav a {
 }
 
 main {
-    padding: 20px;
+    flex: 1;
 }
 
 footer {
@@ -29,7 +31,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: static;
+    position: sticky;
     width: 100%;
     bottom: 0;
 }
