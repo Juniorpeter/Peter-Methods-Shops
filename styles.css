@@ -1,5 +1,6 @@
 body, html {
     font-family: Arial, sans-serif;
+    font-color:
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,7 +29,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: sticky;
     width: 100%;
     bottom: 0;
 }
